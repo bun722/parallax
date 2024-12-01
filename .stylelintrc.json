@@ -1,17 +1,14 @@
 {
     "extends": [
-        "stylelint-config-recommended-scss",
-        "stylelint-config-prettier"
+        "stylelint-config-recommended-scss"
     ],
     "plugins": [
         "stylelint-order",
         "stylelint-prettier"
     ],
+    "customSyntax": "postcss-scss",
     "rules": {
         "prettier/prettier": true,
-        "indentation": 2,
-        "declaration-colon-newline-after": null,
-        "value-list-comma-newline-after": "never-multi-line",
         "order/properties-alphabetical-order": true
     }
 }
